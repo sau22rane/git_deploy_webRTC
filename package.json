@@ -4,8 +4,8 @@
   "description": "This tutorial is divided in three versions:",
   "main": "server.js",
   "scripts": {
-    "predeploy": "npm run server",
-    "deploy": "gh-pages -d server"
+    "predeploy": "npm run server.js",
+    "deploy": "gh-pages -d server.js"
   },
   "repository": {
     "type": "git",
